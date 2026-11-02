@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dmytrolaaa-autoperceive_jd239"
+name = "dmytrolaaa-jailbreak_template_variants_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出自动驾驶感知工程师·越狱模板的变体识别上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://dmytrolaaa.github.io"
-Repository = "https://github.com/dmytrolaaa/autoperceive_jd239"
-Issues = "https://github.com/dmytrolaaa/autoperceive_jd239/issues"
+Repository = "https://github.com/dmytrolaaa/jailbreak_template_variants_count_trace"
+Issues = "https://github.com/dmytrolaaa/jailbreak_template_variants_count_trace/issues"
 
 [project.scripts]
-autoperceive_jd239 = "autoperceive_jd239:main"
+jailbreak_template_variants_count_trace = "jailbreak_template_variants_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["autoperceive_jd239"]
+py-modules = ["jailbreak_template_variants_count_trace"]

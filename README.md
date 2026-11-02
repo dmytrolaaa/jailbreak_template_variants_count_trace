@@ -1,11 +1,11 @@
-# autoperceive_jd239
+# jailbreak_template_variants_count_trace
 
 **追溯自动驾驶感知工程师·越狱模板的变体识别里每一份贡献来自哪里。**
 
-`autoperceive_jd239` —— 统计各来源片段的贡献量与占比，标出自动驾驶感知工程师·越狱模板的变体识别上最主要的来源
+`jailbreak_template_variants_count_trace` —— 统计各来源片段的贡献量与占比，标出自动驾驶感知工程师·越狱模板的变体识别上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`autoperceive_jd239.py` 拷走就能用
+- 单文件，`jailbreak_template_variants_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install dmytrolaaa-autoperceive_jd239
+pip install dmytrolaaa-jailbreak_template_variants_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-autoperceive_jd239 --help
+jailbreak_template_variants_count_trace --help
 ```
 
-也可以不用安装，直接把 `autoperceive_jd239.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `jailbreak_template_variants_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ autoperceive_jd239 --help
 ## 用法
 
 ```bash
-python autoperceive_jd239.py --file input.txt
-python autoperceive_jd239.py --text "示例内容"
-python autoperceive_jd239.py --file input.txt --json
+python jailbreak_template_variants_count_trace.py --file input.txt
+python jailbreak_template_variants_count_trace.py --text "示例内容"
+python jailbreak_template_variants_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python autoperceive_jd239.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_autoperceive_jd239.py
+python test_jailbreak_template_variants_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_autoperceive_jd239.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/dmytrolaaa/autoperceive_jd239>
+- GitHub 仓库：<https://github.com/dmytrolaaa/jailbreak_template_variants_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_autoperceive_jd239.py
 dmytrolaaa 做自动驾驶感知工程师·越狱模板的变体识别相关的问题，方向对标银河通用的专家自动驾驶感知工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://dmytrolaaa.github.io>
-- 仓库：<https://github.com/dmytrolaaa/autoperceive_jd239>
+- 仓库：<https://github.com/dmytrolaaa/jailbreak_template_variants_count_trace>
 
 ## 许可
 
